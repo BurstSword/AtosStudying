@@ -1,0 +1,37 @@
+<div class="myModal" [class.myModal]="!modalService.showModal">
+    <div class="modal" tabindex="-1" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button (click)="modalService.openCloseModal()" type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div *ngIf="employee.empid" class="form-group">
+                        <label for="exampleFormControlInput1">ID</label>
+                        <input [(ngModel)]="employee.empid" type="text" class="form-control" id="exampleFormControlInput1" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input [(ngModel)]="employee.empname" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">DNI</label>
+                        <input [(ngModel)]="employee.dni"  type="text" class="form-control" id="exampleFormControlInput1" placeholder="DNI">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Age</label>
+                        <input [(ngModel)]="employee.age" type="number" class="form-control" id="exampleFormControlInput1" placeholder="Age">
+                    </div>
+                    <button  (click)="createEdit()" class="btn btn-primary" type="submit">Submit</button>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
