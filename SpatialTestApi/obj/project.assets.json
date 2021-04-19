@@ -7670,11 +7670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SpatialTestApi\\SpatialTestApi.csproj",
+      "projectUniqueName": "D:\\AtosStudying\\SpatialTestApi\\SpatialTestApi.csproj",
       "projectName": "SpatialTestApi",
-      "projectPath": "D:\\SpatialTestApi\\SpatialTestApi.csproj",
+      "projectPath": "D:\\AtosStudying\\SpatialTestApi\\SpatialTestApi.csproj",
       "packagesPath": "C:\\Users\\Ryu\\.nuget\\packages\\",
-      "outputPath": "D:\\SpatialTestApi\\obj\\",
+      "outputPath": "D:\\AtosStudying\\SpatialTestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ryu\\AppData\\Roaming\\NuGet\\NuGet.Config",

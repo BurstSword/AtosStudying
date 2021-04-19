@@ -1,0 +1,4 @@
+Comandos usados de NPM por si algo falla al hacer clone:
+
+npm i ol
+npm i @types/ol
